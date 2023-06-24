@@ -15,12 +15,15 @@
 
 .cabecalho_menu_hamburguer{
     background-image: url("../assets/img/Menu.svg");
+    width: 67px;
+    height: 67px;
+}
+
+.cabecalho_menu_hamburguer, .cabecalho_menu_usuario{
     background-repeat: no-repeat;
     background-color: var(--cor_-_branco_puro);
     background-position: center;
     border-color: transparent;
-    width: 67px;
-    height: 67px;
 }
 
 .container_imagem{
@@ -40,15 +43,22 @@
     display: none;
 }
 
-.lista_menu{
+.lista_menu_hamburger, .lista_menu_usuario{
     position: absolute;
     display: flex;
     flex-direction: column;
     background-color: var(--cor_-_branco_puro);
     position: absolute;
     width: 60vw;
-    left: -100vw;
     transition: 0.25s;
+}
+
+.lista_menu_hamburger{
+    left: -100vw;
+}
+
+.lista_menu_usuario{
+    right: -100vw;
 }
 
 .cabecalho_menu_hamburguer_ativo{
@@ -61,7 +71,7 @@
     height: 67px;
 }
 
-.lista_menu_ativo{
+.lista_menu_hamburguer_ativo{
     left: 0;
     z-index: 999;
 }
@@ -90,6 +100,26 @@
     text-decoration: none;
     -webkit-background-clip: unset;
     -webkit-text-fill-color: var(--cor_-_branco_puro);
+}
+
+.cabecalho_menu_usuario{
+    background-image: url("../assets/img/Usuário.svg");
+    background-size: 32px;
+    padding: 32px;
+}
+
+.cabecalho_menu_usuario_ativo{
+    background: var(--cor_-_azul_escuro);
+    background-image: url("../assets/img/Usuario_aberto.png"); /* fallback */
+    background-size: 21px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 32px;
+}
+
+.lista_menu_usuario_ativo{
+    right: 0px;
+    z-index: 999;
 }
 
 @media screen and (min-width: 1024px) {
@@ -152,7 +182,7 @@
 
     .lista_menu_ativo{
         position: absolute;
-        left: 32.7vw;
+        left: 38.5vw;
         width: auto;
     }
 
@@ -163,6 +193,14 @@
 
     #container_imagem_favoritos{
         display: none;
+    }
+
+    .cabecalho_menu_usuario{
+        padding: 14px 28px;
+    }
+
+    .lista_menu_usuario{
+        width: auto;
     }
 }
 
@@ -184,7 +222,7 @@
 
     .lista_menu_ativo{
         position: absolute;
-        left: 17.4vw;
+        left: 16vw;
         width: auto;
     }
 
@@ -197,5 +235,17 @@
         text-decoration: none;
         align-items: center;
         color: var(--cor_-_azul_escuro);
+    }
+
+    .cabecalho_menu_usuario{
+        padding: 14px 28px;
+    }
+
+    .cabecalho_menu_usuario_ativo{
+        padding: 32px;
+    }
+
+    .lista_menu_usuario_ativo{
+        right: 3em;
     }
 }
