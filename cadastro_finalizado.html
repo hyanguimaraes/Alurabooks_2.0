@@ -59,105 +59,19 @@
 
     <!-- BANNER -->
     <section class="banner_formulario">
-        <h2 class="banner_titulo">Tela de cadastro</h2>
+        <h2 class="banner_titulo">Cadastro finalizado</h2>
     </section>
 
-    <!-- FORMULARIO -->
-    <main class="principal">
-        <h2 class="secao_titulo">Dados do cadastro</h2>
-
-        <form class="principal_forumlario" id="formulario" target="_blank" onsubmit="location.replace('./cadastro_finalizado.html')">
-            <h3 class="principal_subtitulo">Dados pessoais</h3>
-            <div class="formulario_campo">
-                <label for="nome" class="campo_etiqueta">Nome Completo</label>
-                <input name="nome" id="nome" class="campo_escrita" required />
-            </div>
-            <div class="formulario_dupla">
-                <div class="formulario_campo">
-                    <label for="nascimento" class="campo_etiqueta">Nascimento</label>
-                    <input name="nascimento" id="nascimento" type="date" class="campo_escrita" required />
-                </div>
-                <div class="formulario_campo">
-                    <label for="telefone" class="campo_etiqueta">Contato</label>
-                    <input name="telefone" id="telefone" type="tel" placeholder="(XX) XXXXX-XXXX" class="campo_escrita" required />
-                </div>
-            </div>
-            <div class="formulario_campo">
-                <label for="email" class="campo_etiqueta">E-mail</label>
-                <input name="email" id="email" type="email" class="campo_escrita" required />
-            </div>
-
-            <h3 class="principal_subtitulo">Endereço</h3>
-
-            <div class="formulario_campo">
-                <label for="cep" class="campo_etiqueta">CEP</label>
-                <input name="cep" id="cep" class="campo_escrita" required />
-            </div>
-            <div class="formulario_campo">
-                <label for="endereco" class="campo_etiqueta">Endereço</label>
-                <input name="endereco" id="endereco" class="campo_escrita" required />
-            </div>
-            <div class="formulario_dupla">
-                <div class="formulario_campo">
-                    <label for="numero" class="campo_etiqueta">Numero</label>
-                    <input name="numero" id="numero" class="campo_escrita" required />
-                </div>
-                <div class="formulario_campo">
-                    <label for="complemento" class="campo_etiqueta">Complemento</label>
-                    <input name="complemento" id="complemento" class="campo_escrita" />
-                </div>
-            </div>
-            <div class="formulario_campo">
-                <label for="bairro" class="campo_etiqueta">Bairro</label>
-                <input name="bairro" id="bairro" class="campo_escrita" required />
-            </div>
-            <div class="formulario_dupla">
-                <div class="formulario_campo">
-                    <label for="cidade" class="campo_etiqueta">Cidade</label>
-                    <input name="cidade" id="cidade" class="campo_escrita" required />
-                </div>
-                <div class="formulario_campo">
-                    <label for="estado" class="campo_etiqueta">UF</label>
-                    <select name="estado" id="estado" class="campo_escrita">
-                        <option value="AC">Acre</option>
-                        <option value="AL">Alagoas</option>
-                        <option value="AP">Amapá</option>
-                        <option value="AM">Amazonas</option>
-                        <option value="BA">Bahia</option>
-                        <option value="CE">Ceará</option>
-                        <option value="DF">Distrito Federal</option>
-                        <option value="ES">Espírito Santo</option>
-                        <option value="GO">Goiás</option>
-                        <option value="MA">Maranhão</option>
-                        <option value="MT">Mato Grosso</option>
-                        <option value="MS">Mato Grosso do Sul</option>
-                        <option value="MG">Minas Gerais</option>
-                        <option value="PA">Pará</option>
-                        <option value="PB">Paraíba</option>
-                        <option value="PR">Paraná</option>
-                        <option value="PE">Pernambuco</option>
-                        <option value="PI">Piauí</option>
-                        <option value="RJ">Rio de Janeiro</option>
-                        <option value="RN">Rio Grande do Norte</option>
-                        <option value="RS">Rio Grande do Sul</option>
-                        <option value="RO">Rondônia</option>
-                        <option value="RR">Roraima</option>
-                        <option value="SC">Santa Catarina</option>
-                        <option value="SP">São Paulo</option>
-                        <option value="SE">Sergipe</option>
-                        <option value="TO">Tocantins</option>
-                        <option value="EX">Estrangeiro</option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="formulario_botao_div">
-                <input type="submit" value="Enviar formulário" class="formulario_botao"
-                id="enviar">
-            </div>
-
-        </form>
+    <!-- Mensagem -->
+    <main class="cadastro">
+        <h2 class="cadastro_titulo">Sucesso!</h2>
+        <h3 class="principal_subtitulo cadastro_subtitulo">Você finalizou seu cadastro!</h3>
+        <p class="principal_texto">Caso deseje editar informações ou atualizá-las no futuro, é só acessar a página de
+            perfil!</p>
+        <img src="/assets/img/Encerramento_compra_-_Alurabooks.png" alt="Ficha de cadastro completada"
+            class="cadastro_imagem">
     </main>
+    
 
     <!-- QUEBRA -->
     <hr />

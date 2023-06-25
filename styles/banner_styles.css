@@ -1,10 +1,17 @@
 /* BANNER */
 
-.banner{
+.banner, .banner_formulario{
     background: var(--gradiente_azul);
     color: var(--cor_-_branco_puro);
     text-align: center;
+}
+
+.banner{
     padding: 2.5em 2.0em;
+}
+
+.banner_formulario{
+    padding: 16px;
 }
 
 .banner_titulo{

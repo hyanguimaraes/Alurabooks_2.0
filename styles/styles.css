@@ -6,6 +6,8 @@
 @import url("topics_styles.css");
 @import url("contact_styles.css");
 @import url("footer_styles.css");
+@import url("formulario_styles.css");
+@import url("cadastro_styles.css");
 
 /*DADOS BASE*/
 :root{   
@@ -34,6 +36,8 @@ body{
     font-weight: 400;
     min-width: 380px
 }
+
+@import url("formulario_styles.css");
 
 /*TÍTULO - COMUM EM VÁRIAS SEÇÕES*/
 .secao_titulo{
