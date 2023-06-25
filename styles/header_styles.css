@@ -14,7 +14,7 @@
 }
 
 .cabecalho_menu_hamburguer{
-    background-image: url("../assets/img/Menu.svg");
+    background-image: url("../img/Menu.svg");
     width: 67px;
     height: 67px;
 }
@@ -63,8 +63,8 @@
 
 .cabecalho_menu_hamburguer_ativo{
     background: var(--cor_-_azul_escuro);
-    background-image: url("../assets/img/Menu_aberto.png"); /* fallback */
-    background-image: url("../assets/img/Menu_aberto.png"), linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    background-image: url("../img/Menu_aberto.png"); /* fallback */
+    background-image: url("../img/Menu_aberto.png"), linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     background-repeat: no-repeat;
     background-position: center;
     width: 67px;
@@ -103,14 +103,14 @@
 }
 
 .cabecalho_menu_usuario{
-    background-image: url("../assets/img/Usuário.svg");
+    background-image: url("../img/Usuário.svg");
     background-size: 32px;
     padding: 32px;
 }
 
 .cabecalho_menu_usuario_ativo{
     background: var(--cor_-_azul_escuro);
-    background-image: url("../assets/img/Usuario_aberto.png"); /* fallback */
+    background-image: url("../img/Usuario_aberto.png"); /* fallback */
     background-size: 21px;
     background-repeat: no-repeat;
     background-position: center;
