@@ -1,29 +1,12 @@
-/* JS SÍNCRONO */
+var consultaCEP = fetch('https://viacep.com.br/ws/0100100/json/')
+    .then(resposta => resposta.json())
+    .then(r => {
+        if (r.erro) {
+            throw Error('Esse CEP não existe');
+        } else {
+            console.log(r);
+        }
+    });
+    .catch(erro => console.log(erro));
 
-/* console.log("Mandando oi pra uma amigo");
-
-function mandaMensagem(){
-    console.log("Tudo bem?");
-    console.log("Vou te mandar uma solicitação!");
-    console.log("Solicitação recebida");
-}
-
-mandaMensagem();
-
-console.log("Tchau, tchau"); */
-
-/* ------------------------------ */
-
-/* JS ASSÍNCRONO */
-
-console.log("Mandando oi pra uma amigo");
-
-function mandaMensagem(){
-    console.log("Tudo bem?");
-    console.log("Vou te mandar uma solicitação!");
-    console.log("Solicitação recebida");
-}
-
-setTimeout(mandaMensagem, 5000);
-
-console.log("Tchau, tchau");
+console.log(consultaCEP);
