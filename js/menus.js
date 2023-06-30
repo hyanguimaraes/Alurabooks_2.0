@@ -8,7 +8,7 @@ const paginacao = document.querySelector('.swiper-pagination')
 botaoMenuHamburguer.addEventListener('click', ()=> {
     menuHamburguer.classList.toggle('lista_menu_hamburguer_ativo');
     botaoMenuHamburguer.classList.toggle('cabecalho_menu_hamburguer_ativo')
-    paginacao.classList.toggle('swiper-pagination_menu_ativo')
+/*     paginacao.classList.toggle('swiper-pagination_menu_ativo') */
 });
 
 //MENU USUÁRIO
@@ -18,7 +18,7 @@ const menuUsuario = document.querySelector('.lista_menu_usuario');
 botaoMenuUsuario.addEventListener('click', ()=> {
     menuUsuario.classList.toggle('lista_menu_usuario_ativo');
     botaoMenuUsuario.classList.toggle('cabecalho_menu_usuario_ativo')
-    paginacao.classList.toggle('swiper-pagination_menu_ativo')
+/*     paginacao.classList.toggle('swiper-pagination_menu_ativo') */
 });
 
 //MENU CATEGORIAS
