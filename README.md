@@ -25,7 +25,7 @@ Eu nunca havia utilizado JS assíncrono e foi muito importante aprender os conce
 ![](https://raw.githubusercontent.com/hyanguimaraes/Alurabooks_2.0/main/readme/Alurabooks_desktop_finalizado_2.gif)
 
 
-[🔗 Acesse o projeto](link)
+[🔗 Acesse o projeto](https://alurabooks-2-0.vercel.app/formulario_de_cadastro.html)
 
 [📚 Página do curso "JavaScript: consumindo e tratando dados de uma API" na plataforma Alura](https://cursos.alura.com.br/course/javascript-consumindo-tratando-dados-api)
 
